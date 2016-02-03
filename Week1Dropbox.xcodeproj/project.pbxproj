@@ -14,6 +14,8 @@
 		1EEE55CA1C6136D90000E19D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EEE55C81C6136D90000E19D /* LaunchScreen.storyboard */; };
 		1EEE55D51C6136D90000E19D /* Week1DropboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE55D41C6136D90000E19D /* Week1DropboxTests.swift */; };
 		1EEE55E01C6136D90000E19D /* Week1DropboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE55DF1C6136D90000E19D /* Week1DropboxUITests.swift */; };
+		1EEE55EE1C61AE1E0000E19D /* signupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE55ED1C61AE1E0000E19D /* signupViewController.swift */; };
+		1EEE55F01C61AFA40000E19D /* signinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE55EF1C61AFA40000E19D /* signinViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		1EEE55DB1C6136D90000E19D /* Week1DropboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Week1DropboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EEE55DF1C6136D90000E19D /* Week1DropboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week1DropboxUITests.swift; sourceTree = "<group>"; };
 		1EEE55E11C6136D90000E19D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EEE55ED1C61AE1E0000E19D /* signupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signupViewController.swift; sourceTree = "<group>"; };
+		1EEE55EF1C61AFA40000E19D /* signinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signinViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				1EEE55BF1C6136D90000E19D /* AppDelegate.swift */,
 				1EEE55C11C6136D90000E19D /* ViewController.swift */,
+				1EEE55ED1C61AE1E0000E19D /* signupViewController.swift */,
+				1EEE55EF1C61AFA40000E19D /* signinViewController.swift */,
 				1EEE55C31C6136D90000E19D /* Main.storyboard */,
 				1EEE55C61C6136D90000E19D /* Assets.xcassets */,
 				1EEE55C81C6136D90000E19D /* LaunchScreen.storyboard */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EEE55F01C61AFA40000E19D /* signinViewController.swift in Sources */,
 				1EEE55C21C6136D90000E19D /* ViewController.swift in Sources */,
+				1EEE55EE1C61AE1E0000E19D /* signupViewController.swift in Sources */,
 				1EEE55C01C6136D90000E19D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
