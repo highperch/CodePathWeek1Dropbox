@@ -1,15 +1,15 @@
 //
-//  signinViewController.swift
+//  signin2ViewController.swift
 //  Week1Dropbox
 //
-//  Created by Justin Peng on 2/2/16.
+//  Created by Justin Peng on 2/4/16.
 //  Copyright © 2016 Justin Peng. All rights reserved.
 //
 
 import UIKit
 
-class signinViewController: UIViewController {
-
+class signin2ViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

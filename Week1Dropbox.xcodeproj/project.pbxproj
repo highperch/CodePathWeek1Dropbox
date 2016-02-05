@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E09AF5A1C63FF660034D862 /* createAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09AF591C63FF660034D862 /* createAccountViewController.swift */; };
+		1E09AF5D1C640D1C0034D862 /* signinhelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09AF5C1C640D1C0034D862 /* signinhelpViewController.swift */; };
+		1E09AF5F1C6412F90034D862 /* termsofserviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09AF5E1C6412F90034D862 /* termsofserviceViewController.swift */; };
+		1E09AF611C6424490034D862 /* create1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09AF601C6424490034D862 /* create1ViewController.swift */; };
+		1E09AF631C642BDF0034D862 /* existingSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09AF621C642BDF0034D862 /* existingSettingsViewController.swift */; };
+		1E09AF651C642BEA0034D862 /* newSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09AF641C642BEA0034D862 /* newSettingsViewController.swift */; };
+		1E09AF671C642E680034D862 /* signin2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09AF661C642E680034D862 /* signin2ViewController.swift */; };
+		1E09AF691C64330F0034D862 /* existingPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09AF681C64330F0034D862 /* existingPhotosViewController.swift */; };
+		1E09AF6B1C6433AA0034D862 /* signin1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09AF6A1C6433AA0034D862 /* signin1ViewController.swift */; };
 		1EEE55C01C6136D90000E19D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE55BF1C6136D90000E19D /* AppDelegate.swift */; };
 		1EEE55C21C6136D90000E19D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE55C11C6136D90000E19D /* ViewController.swift */; };
 		1EEE55C51C6136D90000E19D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EEE55C31C6136D90000E19D /* Main.storyboard */; };
@@ -14,8 +23,9 @@
 		1EEE55CA1C6136D90000E19D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EEE55C81C6136D90000E19D /* LaunchScreen.storyboard */; };
 		1EEE55D51C6136D90000E19D /* Week1DropboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE55D41C6136D90000E19D /* Week1DropboxTests.swift */; };
 		1EEE55E01C6136D90000E19D /* Week1DropboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE55DF1C6136D90000E19D /* Week1DropboxUITests.swift */; };
-		1EEE55EE1C61AE1E0000E19D /* signupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE55ED1C61AE1E0000E19D /* signupViewController.swift */; };
-		1EEE55F01C61AFA40000E19D /* signinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE55EF1C61AFA40000E19D /* signinViewController.swift */; };
+		1EEE55EE1C61AE1E0000E19D /* signupRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE55ED1C61AE1E0000E19D /* signupRootViewController.swift */; };
+		1EEE55F01C61AFA40000E19D /* signinRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE55EF1C61AFA40000E19D /* signinRootViewController.swift */; };
+		1EEE55F41C627CB50000E19D /* WelcomeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE55F31C627CB50000E19D /* WelcomeButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E09AF591C63FF660034D862 /* createAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = createAccountViewController.swift; path = ../createAccountViewController.swift; sourceTree = "<group>"; };
+		1E09AF5C1C640D1C0034D862 /* signinhelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signinhelpViewController.swift; sourceTree = "<group>"; };
+		1E09AF5E1C6412F90034D862 /* termsofserviceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = termsofserviceViewController.swift; sourceTree = "<group>"; };
+		1E09AF601C6424490034D862 /* create1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = create1ViewController.swift; sourceTree = "<group>"; };
+		1E09AF621C642BDF0034D862 /* existingSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = existingSettingsViewController.swift; sourceTree = "<group>"; };
+		1E09AF641C642BEA0034D862 /* newSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newSettingsViewController.swift; sourceTree = "<group>"; };
+		1E09AF661C642E680034D862 /* signin2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signin2ViewController.swift; sourceTree = "<group>"; };
+		1E09AF681C64330F0034D862 /* existingPhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = existingPhotosViewController.swift; sourceTree = "<group>"; };
+		1E09AF6A1C6433AA0034D862 /* signin1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signin1ViewController.swift; sourceTree = "<group>"; };
 		1EEE55BC1C6136D90000E19D /* Week1Dropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week1Dropbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EEE55BF1C6136D90000E19D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EEE55C11C6136D90000E19D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,8 +68,9 @@
 		1EEE55DB1C6136D90000E19D /* Week1DropboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Week1DropboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EEE55DF1C6136D90000E19D /* Week1DropboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week1DropboxUITests.swift; sourceTree = "<group>"; };
 		1EEE55E11C6136D90000E19D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1EEE55ED1C61AE1E0000E19D /* signupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signupViewController.swift; sourceTree = "<group>"; };
-		1EEE55EF1C61AFA40000E19D /* signinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signinViewController.swift; sourceTree = "<group>"; };
+		1EEE55ED1C61AE1E0000E19D /* signupRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signupRootViewController.swift; sourceTree = "<group>"; };
+		1EEE55EF1C61AFA40000E19D /* signinRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signinRootViewController.swift; sourceTree = "<group>"; };
+		1EEE55F31C627CB50000E19D /* WelcomeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +98,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E09AF5B1C63FF7B0034D862 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1EEE55ED1C61AE1E0000E19D /* signupRootViewController.swift */,
+				1E09AF591C63FF660034D862 /* createAccountViewController.swift */,
+				1E09AF601C6424490034D862 /* create1ViewController.swift */,
+				1E09AF5E1C6412F90034D862 /* termsofserviceViewController.swift */,
+				1E09AF5C1C640D1C0034D862 /* signinhelpViewController.swift */,
+				1E09AF621C642BDF0034D862 /* existingSettingsViewController.swift */,
+				1E09AF641C642BEA0034D862 /* newSettingsViewController.swift */,
+				1EEE55EF1C61AFA40000E19D /* signinRootViewController.swift */,
+				1E09AF6A1C6433AA0034D862 /* signin1ViewController.swift */,
+				1E09AF661C642E680034D862 /* signin2ViewController.swift */,
+				1E09AF681C64330F0034D862 /* existingPhotosViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		1EEE55B31C6136D90000E19D = {
 			isa = PBXGroup;
 			children = (
@@ -103,9 +141,9 @@
 			children = (
 				1EEE55BF1C6136D90000E19D /* AppDelegate.swift */,
 				1EEE55C11C6136D90000E19D /* ViewController.swift */,
-				1EEE55ED1C61AE1E0000E19D /* signupViewController.swift */,
-				1EEE55EF1C61AFA40000E19D /* signinViewController.swift */,
+				1E09AF5B1C63FF7B0034D862 /* View Controllers */,
 				1EEE55C31C6136D90000E19D /* Main.storyboard */,
+				1EEE55F31C627CB50000E19D /* WelcomeButton.swift */,
 				1EEE55C61C6136D90000E19D /* Assets.xcassets */,
 				1EEE55C81C6136D90000E19D /* LaunchScreen.storyboard */,
 				1EEE55CB1C6136D90000E19D /* Info.plist */,
@@ -265,10 +303,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EEE55F01C61AFA40000E19D /* signinViewController.swift in Sources */,
+				1E09AF5A1C63FF660034D862 /* createAccountViewController.swift in Sources */,
+				1E09AF5F1C6412F90034D862 /* termsofserviceViewController.swift in Sources */,
+				1E09AF6B1C6433AA0034D862 /* signin1ViewController.swift in Sources */,
+				1EEE55F41C627CB50000E19D /* WelcomeButton.swift in Sources */,
+				1EEE55F01C61AFA40000E19D /* signinRootViewController.swift in Sources */,
+				1E09AF691C64330F0034D862 /* existingPhotosViewController.swift in Sources */,
+				1E09AF5D1C640D1C0034D862 /* signinhelpViewController.swift in Sources */,
 				1EEE55C21C6136D90000E19D /* ViewController.swift in Sources */,
-				1EEE55EE1C61AE1E0000E19D /* signupViewController.swift in Sources */,
+				1E09AF631C642BDF0034D862 /* existingSettingsViewController.swift in Sources */,
+				1E09AF671C642E680034D862 /* signin2ViewController.swift in Sources */,
+				1EEE55EE1C61AE1E0000E19D /* signupRootViewController.swift in Sources */,
+				1E09AF651C642BEA0034D862 /* newSettingsViewController.swift in Sources */,
 				1EEE55C01C6136D90000E19D /* AppDelegate.swift in Sources */,
+				1E09AF611C6424490034D862 /* create1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,6 +543,7 @@
 				1EEE55E61C6136D90000E19D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1EEE55E71C6136D90000E19D /* Build configuration list for PBXNativeTarget "Week1DropboxTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +552,7 @@
 				1EEE55E91C6136D90000E19D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1EEE55EA1C6136D90000E19D /* Build configuration list for PBXNativeTarget "Week1DropboxUITests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +561,7 @@
 				1EEE55EC1C6136D90000E19D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
