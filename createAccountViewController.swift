@@ -14,9 +14,13 @@ class createAccountViewController: UIViewController {
         navigationController!.popViewControllerAnimated(true)
     }
     
+    @IBAction func onTap(sender: AnyObject) {
+        view.endEditing(true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
 
