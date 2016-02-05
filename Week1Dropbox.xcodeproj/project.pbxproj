@@ -16,6 +16,8 @@
 		1E09AF671C642E680034D862 /* signin2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09AF661C642E680034D862 /* signin2ViewController.swift */; };
 		1E09AF691C64330F0034D862 /* existingPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09AF681C64330F0034D862 /* existingPhotosViewController.swift */; };
 		1E09AF6B1C6433AA0034D862 /* signin1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09AF6A1C6433AA0034D862 /* signin1ViewController.swift */; };
+		1E09AF6F1C6441CD0034D862 /* existingFilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E09AF6E1C6441CD0034D862 /* existingFilesViewController.swift */; };
+		1EEB61901C650CD600A9EFFF /* welcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEB618F1C650CD600A9EFFF /* welcomeViewController.swift */; };
 		1EEE55C01C6136D90000E19D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE55BF1C6136D90000E19D /* AppDelegate.swift */; };
 		1EEE55C21C6136D90000E19D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE55C11C6136D90000E19D /* ViewController.swift */; };
 		1EEE55C51C6136D90000E19D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EEE55C31C6136D90000E19D /* Main.storyboard */; };
@@ -55,6 +57,8 @@
 		1E09AF661C642E680034D862 /* signin2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signin2ViewController.swift; sourceTree = "<group>"; };
 		1E09AF681C64330F0034D862 /* existingPhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = existingPhotosViewController.swift; sourceTree = "<group>"; };
 		1E09AF6A1C6433AA0034D862 /* signin1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signin1ViewController.swift; sourceTree = "<group>"; };
+		1E09AF6E1C6441CD0034D862 /* existingFilesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = existingFilesViewController.swift; sourceTree = "<group>"; };
+		1EEB618F1C650CD600A9EFFF /* welcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = welcomeViewController.swift; sourceTree = "<group>"; };
 		1EEE55BC1C6136D90000E19D /* Week1Dropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week1Dropbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EEE55BF1C6136D90000E19D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EEE55C11C6136D90000E19D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,13 +109,15 @@
 				1E09AF591C63FF660034D862 /* createAccountViewController.swift */,
 				1E09AF601C6424490034D862 /* create1ViewController.swift */,
 				1E09AF5E1C6412F90034D862 /* termsofserviceViewController.swift */,
-				1E09AF5C1C640D1C0034D862 /* signinhelpViewController.swift */,
-				1E09AF621C642BDF0034D862 /* existingSettingsViewController.swift */,
 				1E09AF641C642BEA0034D862 /* newSettingsViewController.swift */,
 				1EEE55EF1C61AFA40000E19D /* signinRootViewController.swift */,
+				1E09AF5C1C640D1C0034D862 /* signinhelpViewController.swift */,
 				1E09AF6A1C6433AA0034D862 /* signin1ViewController.swift */,
 				1E09AF661C642E680034D862 /* signin2ViewController.swift */,
+				1E09AF6E1C6441CD0034D862 /* existingFilesViewController.swift */,
 				1E09AF681C64330F0034D862 /* existingPhotosViewController.swift */,
+				1E09AF621C642BDF0034D862 /* existingSettingsViewController.swift */,
+				1EEB618F1C650CD600A9EFFF /* welcomeViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -304,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E09AF5A1C63FF660034D862 /* createAccountViewController.swift in Sources */,
+				1EEB61901C650CD600A9EFFF /* welcomeViewController.swift in Sources */,
 				1E09AF5F1C6412F90034D862 /* termsofserviceViewController.swift in Sources */,
 				1E09AF6B1C6433AA0034D862 /* signin1ViewController.swift in Sources */,
 				1EEE55F41C627CB50000E19D /* WelcomeButton.swift in Sources */,
@@ -313,6 +320,7 @@
 				1EEE55C21C6136D90000E19D /* ViewController.swift in Sources */,
 				1E09AF631C642BDF0034D862 /* existingSettingsViewController.swift in Sources */,
 				1E09AF671C642E680034D862 /* signin2ViewController.swift in Sources */,
+				1E09AF6F1C6441CD0034D862 /* existingFilesViewController.swift in Sources */,
 				1EEE55EE1C61AE1E0000E19D /* signupRootViewController.swift in Sources */,
 				1E09AF651C642BEA0034D862 /* newSettingsViewController.swift in Sources */,
 				1EEE55C01C6136D90000E19D /* AppDelegate.swift in Sources */,

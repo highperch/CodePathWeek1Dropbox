@@ -1,5 +1,5 @@
 //
-//  createAccountViewController.swift
+//  existingFilesViewController.swift
 //  Week1Dropbox
 //
 //  Created by Justin Peng on 2/4/16.
@@ -8,10 +8,14 @@
 
 import UIKit
 
-class createAccountViewController: UIViewController {
-    
-    @IBAction func welcomebutton(sender: UIButton) {
-        navigationController!.popViewControllerAnimated(true)
+class existingFilesViewController: UIViewController {
+
+    @IBAction func onSelect(sender: UIButton) {
+        if sender.selected == false {
+            sender.selected = true
+        } else {
+            sender.selected = false
+        }
     }
     
     override func viewDidLoad() {

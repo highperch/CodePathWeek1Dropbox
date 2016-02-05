@@ -1,23 +1,22 @@
 //
-//  createAccountViewController.swift
+//  welcomeViewController.swift
 //  Week1Dropbox
 //
-//  Created by Justin Peng on 2/4/16.
+//  Created by Justin Peng on 2/5/16.
 //  Copyright © 2016 Justin Peng. All rights reserved.
 //
 
 import UIKit
 
-class createAccountViewController: UIViewController {
+class welcomeViewController: UIViewController {
     
-    @IBAction func welcomebutton(sender: UIButton) {
-        navigationController!.popViewControllerAnimated(true)
-    }
+    @IBOutlet weak var scrollView: UIScrollView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        scrollView.contentSize = CGSize(width: 960, height: 568)
     }
 
     override func didReceiveMemoryWarning() {
