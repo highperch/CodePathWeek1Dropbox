@@ -448,7 +448,7 @@
         <!--existingfavoritesViewController-->
         <scene sceneID="xaD-Qw-xAq">
             <objects>
-                <viewController id="Zfb-4m-r2G" userLabel="existingfavoritesViewController" sceneMemberID="viewController">
+                <viewController id="Zfb-4m-r2G" userLabel="existingfavoritesViewController" customClass="existingFavoritesViewController" customModule="Week1Dropbox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="x5F-eb-9n2">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -461,6 +461,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Favorites" id="aky-rn-hOv"/>
+                    <connections>
+                        <outlet property="favorites_status" destination="Axk-7m-XYS" id="pp5-Le-mwO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VyS-Pe-Hcb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

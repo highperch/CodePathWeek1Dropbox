@@ -1,35 +1,34 @@
 //
-//  existingFilesViewController.swift
+//  existingFavoritesViewController.swift
 //  Week1Dropbox
 //
-//  Created by Justin Peng on 2/4/16.
+//  Created by Justin Peng on 2/6/16.
 //  Copyright © 2016 Justin Peng. All rights reserved.
 //
 
 import UIKit
 
-class existingFilesViewController: UIViewController {
+class existingFavoritesViewController: UIViewController {
     
+    @IBOutlet weak var favorites_status: UIImageView!
+
     var defaults = NSUserDefaults.standardUserDefaults()
-    
-    @IBAction func onSelect(sender: UIButton) {
-        if sender.selected == false {
-            sender.selected = true
-            defaults.setBool(true, forKey: "favorited_files");
-            defaults.synchronize()
-        } else {
-            sender.selected = false
-            defaults.setBool(false, forKey: "favorited_files");
-            defaults.synchronize()
-        }
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
 
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(false)
+        if defaults.boolForKey("favorited_files") == true {
+            favorites_status.image = UIImage(named:"favorited")
+        }
+        else {
+            favorites_status.image = UIImage(named:"empty_favorites")
+        }
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
