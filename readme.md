@@ -2,7 +2,7 @@ Dropbox App Demo
 
 This is a walkthrough of the iOS Dropbox App for Week 1's assignment.
 
-Time spent: 9.5 hours spent in total so far (not including Facebook lab work)
+Time spent: 10.5 hours spent in total so far (not including Facebook lab work)
 
 Completed user stories:
 
@@ -28,6 +28,6 @@ Watch the lecture first next time. Lab was really helpful to get things ironed o
 
 Walkthrough of all user stories:
 
-Video Walkthrough coming after bonus content.
+![week 1 walkthrough gif] (https://cloud.githubusercontent.com/assets/3476345/12877274/968a1c16-cdc5-11e5-9a25-9e23c974a21d.gif)
 
 GIF created with LiceCap.
