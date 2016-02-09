@@ -19,8 +19,8 @@ class existingFavoritesViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    override func viewDidAppear(animated: Bool) {
-        super.viewDidAppear(false)
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(false)
         if defaults.boolForKey("favorited_files") == true {
             favorites_status.image = UIImage(named:"favorited")
         }
